@@ -10,7 +10,171 @@
   "projects": [
       {
         "id": "8658c1d0-9eda-4a90-95e1-8001e8eb6036",
-        "title": "Ocean Blue",
+        "title": "Проект 1",
+        "description": "bla-bla-bla",
+        "stage": 3,
+        "timestamp": "2012-04-23T18:25:43.511Z",
+        "initiation": {
+          "conception": "bla-bla-bla",
+          "map": {},
+          "pictures": ["pic1", "pic2", "pic3"],
+          "stakeholders": [
+            {
+            "name": "user1",
+            "role": "Заказчик"
+            },
+            {
+              "name": "user2",
+              "role": "Руководитель проекта"
+            },
+            {
+              "name": "user3",
+              "role": "Куратор"
+            }
+          ],
+          "timeConstraints": "30 дней",
+          "costEstimate": "50000",
+          "funding": "содержание жилья",
+          "timestamp": "2012-04-23T18:25:43.511Z"
+        },
+        "planning ": {
+          "schedule": [],
+          "team": [],
+          "risks": []
+        },
+        "implementation": {
+
+        },
+        "result": {
+
+        }
+      },
+      {
+        "id": "73edf283-c6ed-461a-845f-d250843a338a",
+        "title": "Проект 2",
+        "description": "bla-bla-bla",
+        "stage": 3,
+        "timestamp": "2012-04-23T18:25:43.511Z",
+        "initiation": {
+          "conception": "bla-bla-bla",
+          "map": {},
+          "pictures": ["pic1", "pic2", "pic3"],
+          "stakeholders": [
+            {
+            "name": "user1",
+            "role": "Заказчик"
+            },
+            {
+              "name": "user2",
+              "role": "Руководитель проекта"
+            },
+            {
+              "name": "user3",
+              "role": "Куратор"
+            }
+          ],
+          "timeConstraints": "30 дней",
+          "costEstimate": "50000",
+          "funding": "содержание жилья",
+          "timestamp": "2012-04-23T18:25:43.511Z"
+        },
+        "planning ": {
+          "schedule": [],
+          "team": [],
+          "risks": []
+        },
+        "implementation": {
+
+        },
+        "result": {
+
+        }
+      },
+      {
+        "id": "1c50ff19-6f03-402a-a0a2-bdf8628c4317",
+        "title": "Проект 3",
+        "description": "bla-bla-bla",
+        "stage": 3,
+        "timestamp": "2012-04-23T18:25:43.511Z",
+        "initiation": {
+          "conception": "bla-bla-bla",
+          "map": {},
+          "pictures": ["pic1", "pic2", "pic3"],
+          "stakeholders": [
+            {
+            "name": "user1",
+            "role": "Заказчик"
+            },
+            {
+              "name": "user2",
+              "role": "Руководитель проекта"
+            },
+            {
+              "name": "user3",
+              "role": "Куратор"
+            }
+          ],
+          "timeConstraints": "30 дней",
+          "costEstimate": "50000",
+          "funding": "содержание жилья",
+          "timestamp": "2012-04-23T18:25:43.511Z"
+        },
+        "planning ": {
+          "schedule": [],
+          "team": [],
+          "risks": []
+        },
+        "implementation": {
+
+        },
+        "result": {
+
+        }
+      },
+      {
+        "id": "8e17b620-4fc4-4fd8-8536-768a6a7cbd94",
+        "title": "Проект 4",
+        "description": "bla-bla-bla",
+        "stage": 3,
+        "timestamp": "2012-04-23T18:25:43.511Z",
+        "initiation": {
+          "conception": "bla-bla-bla",
+          "map": {},
+          "pictures": ["pic1", "pic2", "pic3"],
+          "stakeholders": [
+            {
+            "name": "user1",
+            "role": "Заказчик"
+            },
+            {
+              "name": "user2",
+              "role": "Руководитель проекта"
+            },
+            {
+              "name": "user3",
+              "role": "Куратор"
+            }
+          ],
+          "timeConstraints": "30 дней",
+          "costEstimate": "50000",
+          "funding": "содержание жилья",
+          "timestamp": "2012-04-23T18:25:43.511Z"
+        },
+        "planning ": {
+          "schedule": [],
+          "team": [],
+          "risks": []
+        },
+        "implementation": {
+
+        },
+        "result": {
+
+        }
+      },
+      {
+        "id": "b39328dc-28f6-4a5b-bb27-58bdc682d6ba",
+        "title": "Проект 5",
         "description": "bla-bla-bla",
         "stage": 3,
         "timestamp": "2012-04-23T18:25:43.511Z",
