@@ -1,7 +1,7 @@
 import React from 'react';
 import Alert  from 'react-bootstrap/Alert'
 
-import Menu from '../components/ui/Menu'
+import Menu from './containers/Menu'
 import Content from './ui/Content'
 
 const App = () =>

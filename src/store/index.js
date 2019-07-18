@@ -24,7 +24,7 @@ const storeFactory = (initialState=stateData) =>
         combineReducers({ about, projects}),
         (localStorage['redux-store']) ?
             JSON.parse(localStorage['redux-store']) :
-            initialState
+            stateData
     )
 
 export default storeFactory
