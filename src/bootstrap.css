@@ -10679,8 +10679,8 @@ a.text-dark:hover, a.text-dark:focus {
   bottom: 0;
   left: 0;
   z-index: 100; /* Behind the navbar */
-  padding: 48px 0 0; /* Height of navbar */
-  box-shadow: inset -1px 0 0 rgba(0, .1, 0, .1);
+  padding: 70px 10px 0; /* Height of navbar */
+  border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .sidebar-sticky {
@@ -10736,3 +10736,4 @@ a.text-dark:hover, a.text-dark:focus {
     padding-top: 48px; /* Space for fixed navbar */
   }
 }
+

@@ -5,10 +5,10 @@ import Project from '../containers/Project'
 
 const ContentView = ({content}) =>
 <Container fluid={true}>
-    <div className="col-md-6 col-lg-6 d-none d-md-block bg-light sidebar">
+    <div className="offset-6 col-6 px-4 bg-light sidebar">
         <Project/>
     </div>
-    <div className="col-md-6 col-lg-6 ml-sm-auto px-4" role="main">
+    <div className="col-6" role="main">
         <Projects/>
     </div>
 </Container>
