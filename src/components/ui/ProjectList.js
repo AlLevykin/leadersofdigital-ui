@@ -1,12 +1,10 @@
 import React, {Fragment} from 'react';
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
-import About from '../containers/About'
 import Table from 'react-bootstrap/Table'
 
 const ProjectList = ({projects}) =>
 <Fragment>
-    <About/>
     <Row>
     <Col>
         <h2><i className="fas fa-list"></i> Список проектов</h2>
