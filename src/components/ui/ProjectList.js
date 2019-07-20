@@ -1,7 +1,6 @@
 import React, {Fragment} from 'react';
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
-import Card from 'react-bootstrap/Card'
 import About from '../containers/About'
 import Table from 'react-bootstrap/Table'
 
@@ -28,9 +27,8 @@ const ProjectList = ({projects}) =>
             <tbody>  
             {
              projects.map(project =>
-        
             <tr key={project.id} bg="primary" text="white">
-                <td width="25%"><i className="fas fa-hammer"></i> {new Date(project.timestamp).toLocaleString('ru-RU', { year: 'numeric', month: 'numeric', day: 'numeric' })}</td>
+                <td width="25%">{new Date(project.timestamp).toLocaleString('ru-RU', { year: 'numeric', month: 'numeric', day: 'numeric' })}</td>
                 <td>{project.title}</td>
                 <td>{project.description}</td>
             </tr>
