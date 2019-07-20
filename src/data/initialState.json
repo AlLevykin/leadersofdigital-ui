@@ -15,6 +15,16 @@
         "stage": 3,
         "timestamp": "2012-04-23T18:25:43.511Z",
         "initiation": {
+          "vote": {
+            "against": 0,
+            "for": 10
+          },
+          "object": {
+            "id": "47:14:1203001:814",
+            "description": "Описание объекта благоустройства",
+            "note": "",
+            "geoposition": ""
+          },
           "conception": "bla-bla-bla",
           "map": {},
           "pictures": ["pic1", "pic2", "pic3"],
@@ -56,6 +66,16 @@
         "stage": 3,
         "timestamp": "2012-04-23T18:25:43.511Z",
         "initiation": {
+          "vote": {
+            "against": 0,
+            "for": 10
+          },
+          "object": {
+            "id": "47:14:1203001:815",
+            "description": "Описание объекта благоустройства",
+            "note": "",
+            "geoposition": ""
+          },
           "conception": "bla-bla-bla",
           "map": {},
           "pictures": ["pic1", "pic2", "pic3"],
@@ -97,6 +117,16 @@
         "stage": 3,
         "timestamp": "2012-04-23T18:25:43.511Z",
         "initiation": {
+          "vote": {
+            "against": 0,
+            "for": 10
+          },
+          "object": {
+            "id": "47:14:1203001:816",
+            "description": "Описание объекта благоустройства",
+            "note": "",
+            "geoposition": ""
+          },
           "conception": "bla-bla-bla",
           "map": {},
           "pictures": ["pic1", "pic2", "pic3"],
@@ -138,6 +168,16 @@
         "stage": 3,
         "timestamp": "2012-04-23T18:25:43.511Z",
         "initiation": {
+          "vote": {
+            "against": 0,
+            "for": 10
+          },
+          "object": {
+            "id": "47:14:1203001:817",
+            "description": "Описание объекта благоустройства",
+            "note": "",
+            "geoposition": ""
+          },
           "conception": "bla-bla-bla",
           "map": {},
           "pictures": ["pic1", "pic2", "pic3"],
@@ -179,6 +219,16 @@
         "stage": 3,
         "timestamp": "2012-04-23T18:25:43.511Z",
         "initiation": {
+          "vote": {
+            "against": 0,
+            "for": 10
+          },
+          "object": {
+            "id": "47:14:1203001:818",
+            "description": "Описание объекта благоустройства",
+            "note": "",
+            "geoposition": ""
+          },
           "conception": "bla-bla-bla",
           "map": {},
           "pictures": ["pic1", "pic2", "pic3"],
