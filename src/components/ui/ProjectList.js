@@ -3,6 +3,7 @@ import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Card from 'react-bootstrap/Card'
 import About from '../containers/About'
+import Table from 'react-bootstrap/Table'
 
 const ProjectList = ({projects}) =>
 <Fragment>
@@ -14,31 +15,30 @@ const ProjectList = ({projects}) =>
     </Row>
     <Row>
     <Col>
-        <hr/>
-    </Col>
-    </Row>
-    <Row>
-    <Col>
-        <div className="card-columns">
+      <div className="table-columns">
         {
-            projects.map(project =>
-                <Card key={project.id} bg="primary" text="white">
-                    <Card.Header><i className="fas fa-hammer"></i> {new Date(project.timestamp).toLocaleString('ru-RU', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })}</Card.Header>
-                    <Card.Body>
-                        <Card.Title className="text-white">{project.title}</Card.Title>
-                        <Card.Text>
-                        {project.description}
-                        </Card.Text>
-                    </Card.Body>
-                </Card>
-            )
+            <Table striped bordered hover size="sm" text-align="right">
+            <thead>    
+            <tr>
+                <td>Дата создания</td>
+                <td>Название</td>
+                <td>Комментарий</td>
+            </tr>
+            </thead>
+            <tbody>  
+            {
+             projects.map(project =>
+        
+            <tr key={project.id} bg="primary" text="white">
+                <td width="25%"><i className="fas fa-hammer"></i> {new Date(project.timestamp).toLocaleString('ru-RU', { year: 'numeric', month: 'numeric', day: 'numeric' })}</td>
+                <td>{project.title}</td>
+                <td>{project.description}</td>
+            </tr>
+            )}
+            </tbody>
+            </Table>
         }
         </div>
-    </Col>
-    </Row>
-    <Row>
-    <Col>
-        <hr/>
     </Col>
     </Row>
 </Fragment>
