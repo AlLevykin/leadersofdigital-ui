@@ -20,7 +20,7 @@ const MainMenu = ({onCreateProject=f=>f}) => {
 
   return (
     <Navbar variant="dark" fixed="top" bg="primary" expand="lg" onSelect={handleSelect}>
-      <Navbar.Brand href="#">Community projects</Navbar.Brand>
+      <Navbar.Brand href="#">ЖУК</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto">
@@ -29,6 +29,9 @@ const MainMenu = ({onCreateProject=f=>f}) => {
             <NavDropdown.Divider />
             <NavDropdown.Item eventKey={C.CREATE_PROJECT}><i className="fas fa-plus"></i> Создать проект</NavDropdown.Item>
           </NavDropdown>
+          <Nav.Link href="#">Жалобы</Nav.Link>
+          <Nav.Link href="#">Заявки</Nav.Link>
+          <Nav.Link href="#">Показания счетчиков</Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>

@@ -2,7 +2,7 @@ import React from 'react';
 import Alert  from 'react-bootstrap/Alert'
 
 import Menu from './containers/Menu'
-import Content from './ui/Content'
+import Content from './containers/Content'
 
 const App = () =>
   <div className="app">

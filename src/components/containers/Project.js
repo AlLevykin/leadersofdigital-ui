@@ -4,7 +4,7 @@ import ProjectCard from '../ui/ProjectCard'
 const Project = connect(
     state =>
         ({
-            project: state.project
+            project: state.projects[0]
         })
 )(ProjectCard)
 
