@@ -8,7 +8,7 @@ const ContentView = ({content}) =>
     <div className="offset-6 col-6 px-4 bg-light sidebar">
         <Project/>
     </div>
-    <div className="col-6" role="main">
+    <div className="col-6">
         <Projects/>
     </div>
 </Container>
