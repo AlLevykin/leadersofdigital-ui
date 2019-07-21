@@ -4,11 +4,12 @@ import Tab from 'react-bootstrap/Tab'
 import Planning from '../containers/Planning'
 import Implementation from '../containers/Implementation'
 import Result from '../containers/Result'
+import Initiation from '../containers/Initiation'
 
 const ProjectCard = ({project}) =>
 <Tabs defaultActiveKey="initiation" id="project-card">
     <Tab eventKey="initiation" title="Инициирование">
-
+        <Initiation/>
     </Tab>
     <Tab eventKey="planning" title="Планирование">
         <Planning/>
