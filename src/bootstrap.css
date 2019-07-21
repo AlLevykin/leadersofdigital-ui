@@ -10737,3 +10737,12 @@ a.text-dark:hover, a.text-dark:focus {
   }
 }
 
+/*
+* Добавлено
+*/
+
+/* Отступы для формы карточки проекта*/
+card-init {
+  margin: 2em;
+}
+
