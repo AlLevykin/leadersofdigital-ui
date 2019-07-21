@@ -1,33 +1,24 @@
-import React, {Fragment} from 'react';
-import Row from 'react-bootstrap/Row'
-import Col from 'react-bootstrap/Col'
-import Card from 'react-bootstrap/Card'
-
+import React from 'react';
+import Tabs from 'react-bootstrap/Tabs'
+import Tab from 'react-bootstrap/Tab'
+import Planning from '../containers/Planning'
+import Implementation from '../containers/Implementation'
+import Result from '../containers/Result'
 
 const ProjectCard = ({project}) =>
-<Fragment>
+<Tabs defaultActiveKey="initiation" id="project-card">
+    <Tab eventKey="initiation" title="Инициирование">
 
-    <Row>
-    <Col>
-        <div className="card-view">
-        {
-            
-                <Card key={project.id} bg="primary" text="white">
-                    <Card.Header><i className="fas fa-hammer"></i> {new Date(project.timestamp).toLocaleString('ru-RU', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })}</Card.Header>
-                    <Card.Body>
-                        <Card.Title className="text-white">{project.title}</Card.Title>
-                        <Card.Text>
-                        {project.description}
-                        </Card.Text>
-                    </Card.Body>
-                </Card>
-        
-        }
-        </div>
-    </Col>
-    </Row>
-    
- 
-</Fragment>
+    </Tab>
+    <Tab eventKey="planning" title="Планирование">
+        <Planning/>
+    </Tab>
+    <Tab eventKey="implementation" title="Исполнение">
+        <Implementation/>
+    </Tab>
+    <Tab eventKey="result" title="Завершение">
+        <Result/>
+    </Tab>
+</Tabs>
 
 export default ProjectCard
