@@ -26,8 +26,8 @@ const PollCard = ({project}) =>
     <Form>
         <row>
         <Col>
-        <Form.Check type="radio" aria-label="radio 1" inline label="Согласен" id="vote1" />
-        <Form.Check type="radio" aria-label="radio 2" inline label="Против" id="vote2"/>
+        <Form.Check type="radio" aria-label="radio 1" inline label="Согласен" id="vote" name="vote" />
+        <Form.Check type="radio" aria-label="radio 2" inline label="Против" id="vote" name="vote"/>
         </Col>
         </row>
         <hr />
