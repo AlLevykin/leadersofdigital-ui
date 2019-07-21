@@ -3,9 +3,10 @@ import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
 import NavDropdown from 'react-bootstrap/NavDropdown'
 import C from '../../store/constants'
+import Form from 'react-bootstrap/Form'
+import NavButton from './NavButton'
 
 const MainMenu = ({onCreateProject=f=>f}) => {
-
   const handleSelect = eventKey =>
   {
     switch (eventKey) {
@@ -32,8 +33,15 @@ const MainMenu = ({onCreateProject=f=>f}) => {
           <Nav.Link href="#">Жалобы</Nav.Link>
           <Nav.Link href="#">Заявки</Nav.Link>
           <Nav.Link href="#">Показания счетчиков</Nav.Link>
-        </Nav>
+          </Nav>
       </Navbar.Collapse>
+
+      <Form class="navbar-form navbar-right">
+        <NavButton caption="События" className="fas fa-sms"/>
+        <NavButton caption="Пользователь" className="fas fa-user"/>
+        <NavButton caption="Выход" className="fas fa-walking"/>
+    </Form> 
+
     </Navbar>
   )
 }
