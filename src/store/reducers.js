@@ -19,6 +19,12 @@ export const projects = (state={}, action) => {
                 },
                 ...state
             ]
+        case C.SET_CURRENT_PROJECT :
+            return state.map(project => {
+                let isCurrent = 0
+                if (project.id === action.id) isCurrent = 1
+                return {...project, isCurrent}
+            })
         default:
             return state
     }

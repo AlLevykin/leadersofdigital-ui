@@ -7,8 +7,10 @@
     "address": "456770, Челябинская область, г. Снежинск, ул. Маршала Чуйкова, дом.99, помещение 99",
     "email": "svoydom@mail.com"
   },
+  "currentProject": "",
   "projects": [
       {
+        "isCurrent": 1,
         "id": "8658c1d0-9eda-4a90-95e1-8001e8eb6036",
         "title": "Проект 1",
         "description": "bla-bla-bla",
@@ -60,6 +62,7 @@
         }
       },
       {
+        "isCurrent": 0,
         "id": "73edf283-c6ed-461a-845f-d250843a338a",
         "title": "Проект 2",
         "description": "bla-bla-bla",
@@ -111,6 +114,7 @@
         }
       },
       {
+        "isCurrent": 0,
         "id": "1c50ff19-6f03-402a-a0a2-bdf8628c4317",
         "title": "Проект 3",
         "description": "bla-bla-bla",
@@ -162,6 +166,7 @@
         }
       },
       {
+        "isCurrent": 0,
         "id": "8e17b620-4fc4-4fd8-8536-768a6a7cbd94",
         "title": "Проект 4",
         "description": "bla-bla-bla",
@@ -213,6 +218,7 @@
         }
       },
       {
+        "isCurrent": 0,
         "id": "b39328dc-28f6-4a5b-bb27-58bdc682d6ba",
         "title": "Проект 5",
         "description": "bla-bla-bla",
