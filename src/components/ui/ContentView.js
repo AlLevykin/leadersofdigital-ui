@@ -2,6 +2,7 @@ import React from 'react';
 import Container from 'react-bootstrap/Container'
 import Projects from '../containers/Projects'
 import Project from '../containers/Project'
+import About from '../containers/About'
 
 const ContentView = ({content}) =>
 <Container fluid={true}>
@@ -9,6 +10,7 @@ const ContentView = ({content}) =>
         <Project/>
     </div>
     <div className="col-6">
+        <About/>
         <Projects/>
     </div>
 </Container>
