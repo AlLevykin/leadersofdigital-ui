@@ -1,6 +1,6 @@
 import React from 'react';
 
 const ImplementationCard = ({project}) =>
-<h1>ImplementationCard</h1>
+<p></p>
 
 export default ImplementationCard
