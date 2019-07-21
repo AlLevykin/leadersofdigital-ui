@@ -18,27 +18,23 @@ const ProjectCard = ({project}) =>
                     <Col><Form.Control plaintext readOnly defaultValue={new Date(project.timestamp).toLocaleString('ru-RU', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })} /></Col>
                 </Row>  
                 <Row>
-                    <Col><Form.Label >Заказчик</Form.Label></Col>
+                    <Col><Form.Label >Инициатор</Form.Label></Col>
                     <Col><Form.Control plaintext readOnly defaultValue={project.initiation.stakeholders[0].name} /></Col>
                 </Row>       
                 <Row>
-                    <Col><Form.Label >Руководитель проекта</Form.Label></Col>
+                    <Col><Form.Label >Модератор</Form.Label></Col>
                     <Col><Form.Control plaintext readOnly defaultValue={project.initiation.stakeholders[1].name} /></Col>
                 </Row>    
-                <Row>
-                    <Col><Form.Label >Куратор</Form.Label></Col>
-                    <Col><Form.Control plaintext readOnly defaultValue={project.initiation.stakeholders[2].name} /></Col>
-                </Row>                                                          
+                                                         
                 <Row>
 
                 </Row>                      
-                    </Form.Group>
-              
-               
-      
+            </Form.Group>
         </Form>
 
         <Poll /> 
+
+
         </div>
             
 
