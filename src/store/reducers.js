@@ -13,9 +13,57 @@ export const projects = (state={}, action) => {
                 {
                     "id": v4(),
                     "title": "Новый проект",
-                    "description": "bla-bla-bla",
-                    "stage": 3,
+                    "description": "",
+                    "stage": 1,
                     "timestamp": new Date().toString(),
+                    "initiation": {
+                        "vote": {
+                          "against": 0,
+                          "for": 0
+                        },
+                        "object": {
+                          "id": "",
+                          "description": "",
+                          "note": "",
+                          "geoposition": ""
+                        },
+                        "conception": "",
+                        "map": {},
+                        "pictures": [ ],
+                        "stakeholders": [
+                          {
+                            "name": "",
+                            "role": ""
+                          },
+                          {
+                            "name": "",
+                            "role": ""
+                          }
+                        ],
+                        "timeConstraints": "30 дней",
+                        "costEstimate": "50000",
+                        "funding": "содержание жилья",
+                        "timestamp": ""
+                      },
+                      "planning": {
+                        "schedule": [
+                          {
+                            "name": "",
+                            "employee": "",
+                            "start": "",
+                            "end": ""
+                          }
+                        ],
+                        "team": [
+                          {
+                            "name": "",
+                            "role": "",
+                            "contacts": ""
+                          }
+                        ]
+                      },
+                      "implementation": {},
+                      "result": {}
                 },
                 ...state
             ]
